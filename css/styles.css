@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-family: "Montserrat",serif;
+    background-image: url('https://www.thewowstyle.com/wp-content/uploads/2015/01/most-beautiful-cities-41.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caixamain{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   }
+
+.login{
+    position: relative;
+    left:2rem ;
+    color: rgb(241, 3, 241);
+
+}
+
+.input{
+    padding: 0.2rem;
+    border-radius: 5px;
+    text-underline-offset: none;
+
+}
+.redessociais{
+    position: absolute;
+    top: 70%;
+    left: 47.5%;
+}
+
+
+
+
+
+
+
+
