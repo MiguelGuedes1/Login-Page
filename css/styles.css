@@ -8,11 +8,42 @@ body{
  
 }
 
+.navbar{
+    display: flex;
+    justify-content: right;
+
+ }
+
+.navbar li {
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    padding:1rem ;
+    font-size: 1rem;
+
+    
+ }
+
+ .navbar li:hover{
+ font-size: 1.2rem;
+ color:  rgb(255, 255, 255);
+ cursor: pointer;
+ }
+
+ .navbar a{
+    color:  rgb(241, 3, 241); 
+    text-decoration: none;
+    text-decoration:none;
+ }
+
 .caixamain{
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%,-50%);
+
+    
+    
    }
 
 .login{
