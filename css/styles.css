@@ -1,14 +1,16 @@
 body{
     margin: 0;
     font-family: "Montserrat",serif;
+    height: 100vh;
     background-image: url('https://www.thewowstyle.com/wp-content/uploads/2015/01/most-beautiful-cities-41.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+ 
 }
 
 .caixamain{
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%,-50%);
    }
@@ -20,17 +22,81 @@ body{
 
 }
 
-.input{
+.inputname{
     padding: 0.2rem;
     border-radius: 5px;
     text-underline-offset: none;
 
 }
-.redessociais{
-    position: absolute;
-    top: 70%;
-    left: 47.5%;
+
+.inputpassword{
+    padding: 0.2rem;
+    border-radius: 5px;
+    text-underline-offset: none;
+    margin-top: 1rem;
 }
+
+.botao{
+position: relative;
+margin-top: 1rem;
+padding: 0.3rem;
+border-radius: 0.5rem;
+width: 100%;
+background-color: rgb(241, 3, 241);
+}
+
+.botao:hover{
+    background-color:rgb(255, 68, 255) ;
+}
+
+
+.caixabottom{
+    position: absolute;
+    top: 68%;
+    left: 45%;
+}
+
+.redessociais h3{
+
+    color:rgb(241, 3, 241);
+    font-size: 1.3rem;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: absolute;
+    top: 68%;
+    left: 40%;
+    margin-top: 1rem;
+}
+
+.logogit{
+  width: 1.8rem;
+  
+}
+
+.logoface{
+    width: 1.8rem;
+}
+
+.logogit:hover{
+    width: 2.6rem;
+    
+  }
+  
+  .logoface:hover{
+      width: 2.6rem;
+  }
+
+
+
+
+
+
+
+
 
 
 
